@@ -4,14 +4,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <title>Flagman05</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div>
     <a href="https://flagman05.ru">
-      <img src="Logo.png" class="logo" alt="JavaScript logo" />
+      <img src="public/Logo.webp" class="logo" alt="JavaScript logo" />
     </a>
     <!-- HTML !-->
     <button class="button-71" style="margin-left: auto;margin-right: auto;display: block; " role="button"
@@ -19,7 +23,7 @@
 
     <h2>Торгово-развлекательный центр "ФЛАГМАН" расположен на одном из самых активных транспортных узлов столицы
       Дагестана -
-      кольце по ул. Каммаева (Сулакский пост).
+      кольце по ул. Каммаева <br> (Сулакский пост).
       <p></p>
 
 
@@ -79,9 +83,9 @@
     <div class="swiper-pagination"></div>
   </div>
   <h3>Планы Этажей ТРЦ "ФЛАГМАН"</h3>
-  <iframe src="plans.pdf"
-    style="margin-bottom:200px; margin-left: auto;margin-right: auto;display: block; width:100%; height:1000px;"
-    frameborder="0" allowfullscreen></iframe>
+  <object width=100% height="1000" type="application/pdf" data="public/plans.pdf">
+    <p>Файлы ПДФ запрещены в вашем браузере</p>
+  </object>
 
 
   <h3>ТРЦ "ФЛАГМАН" на карте</h3>
@@ -91,7 +95,7 @@
 
   <iframe id="form"
     src="https://docs.google.com/forms/d/e/1FAIpQLSd0pVegzaZIh0IgLhDp7Cx8AXk-_YWoovTK2XrZoUnVZQCS-g/viewform?embedded=true"
-    style="margin-top:200px;margin-left: auto;margin-right: auto;display: block" width="640" height="1200"
+    style="margin-top:200px;margin-left: auto;margin-right: auto;display: block" width="580" height="1200"
     frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
 
   <script type="module" src="/main.js" defer></script>
